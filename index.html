@@ -1,148 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel the World</title>
-    
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-  </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
 
-  <body>
+<body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <div class="container-fluid ">
-          <a class="navbar-brand"  href="#"><img src="logo.png" class="logo" />Travel the world</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Acceuil</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Destination">Déstinations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Nos offres</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#"><img src="logo.png" class="logo" />Travel the world</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Destination">Déstinations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nos offres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-      <section >
-        <div id="title" class="container">
-          <h1 id="Destinations">Nos plus belles déstinations !</h1>
-        </div>
-
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active m-auto">
-              <img
-                src="images/borabora.jpg"
-                class="d-block"
-                alt="borabora"
-              />
+        <section>
+            <div id="title" class="container">
+                <h1 id="Destinations">Nos plus belles destinations !</h1>
             </div>
-            <div class="carousel-item m-auto">
-              <img src="images/Canada.jpg" class="d-block w-100" alt="canada" />
-            </div>
-            <div class="carousel-item m-auto">
-              <img src="images/hawaii.jpg" class="d-block w-100" alt="hawaii" />
-            </div>
-            <div class="carousel-item m-auto">
-              <img src="images/inde.jpg" class="d-block w-100" alt="inde" />
-            </div>
-            <div class="carousel-item m-auto">
-              <img src="images/tahiti.jpg" class="d-block w-100" alt="tahiti" />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
 
-
-      <section class="container video">
-        <iframe
-          width="1000"
-          height="720"
-          src="https://www.youtube.com/embed/Fmw-F4r5sc8"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </section>
-
-
-
-
-      <section>
-        <div class="container-fluid bg-info text-center p-5">
-            <div class="row ms-2 me-2">
-                <div class="col-4 m-auto">
-                    <i class="fas fa-passport fa-5x mb-4"></i>
-                    <h4>100 destinations disponibles !</h4>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active m-auto">
+                        <img src="images/borabora.jpg" class="d-block" alt="borabora" />
+                    </div>
+                    <div class="carousel-item m-auto">
+                        <img src="images/Canada.jpg" class="d-block w-100" alt="canada" />
+                    </div>
+                    <div class="carousel-item m-auto">
+                        <img src="images/hawaii.jpg" class="d-block w-100" alt="hawaii" />
+                    </div>
+                    <div class="carousel-item m-auto">
+                        <img src="images/inde.jpg" class="d-block w-100" alt="inde" />
+                    </div>
+                    <div class="carousel-item m-auto">
+                        <img src="images/tahiti.jpg" class="d-block w-100" alt="tahiti" />
+                    </div>
                 </div>
-                <div class="col-4 m-auto">
-                    <i class="fab fa-angellist fa-5x mb-4"></i>
-                    <h4>annulation gratuite jusqu'à une semaine avant</h4>
-                </div>
-                <div class="col-4 m-auto">
-                    <i class="fas fa-globe-americas fa-5x mb-4"></i>
-                    <h4>30 ans d'expérience</h4>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+        <section class="container video">
+            <iframe width="1000" height="720" src="https://www.youtube.com/embed/Fmw-F4r5sc8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+
+
+
+
+        <section>
+            <div class="container-fluid bg-info text-center p-5">
+                <div class="row ms-2 me-2">
+                    <div class="col-md-4 m-auto">
+                        <i class="fas fa-passport fa-5x mb-4"></i>
+                        <h4>100 destinations disponibles !</h4>
+                    </div>
+                    <div class="col-md-4 m-auto">
+                        <i class="fab fa-angellist fa-5x mb-4"></i>
+                        <h4>annulation gratuite jusqu'à une semaine avant</h4>
+                    </div>
+                    <div class="col-md-4 m-auto">
+                        <i class="fas fa-globe-americas fa-5x mb-4"></i>
+                        <h4>30 ans d'expérience</h4>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section>
+            <div class="container p-5 text-center">
+                <h1>Nos formules</h1>
+                <h5 class="pb-5">exemple : tarifs pour Bora-Bora (7 jours)</h5>
+                <div class="row">
+
+                    <div class="card col-md-6 col-lg-4 p-5">
+                        <i class="far fa-star fa-3x"></i>
+                        <div class="card-body">
+                            <h3 class="card-title">Standard</h5>
+                            <p class="card-text">975 € TTC</p>
+                            <p class="card-text">avion + hôtel</p>
+                            <p class="card-text">repas non inclus</p>
+                            <p class="card-text">idéal pour les petits budgets</p>
+                            <a href="#" class="btn btn-primary">Réserver</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-6 col-lg-4 p-5">
+                        <div class="card-img-top">
+                            <i class="far fa-star fa-3x"></i><i class="far fa-star fa-3x"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Premium</h5>
+                                <p class="card-text">1495 € TTC</p>
+                                <p class="card-text">avion + hôtel + transport</p>
+                                <p class="card-text">repas et boissons inclus</p>
+                                <p class="card-text">circuit de découverte de l'île</p>
+                                <a href="#" class="btn btn-primary">Réserver</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-6 col-lg-4 p-5">
+                        <div class="card-img-top">
+                            <i class="far fa-star fa-3x"></i><i class="far fa-star fa-3x"></i><i class="far fa-star fa-3x"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Excellence</h5>
+                                <p class="card-text">2495 € TTC</p>
+                                <p class="card-text">avion + hôtel + transport + extras</p>
+                                <p class="card-text">repas et boissons inclus (à volonté)</p>
+                                <p class="card-text">circuit, tour en bateau, découverte des coutumes locales, et autres surprises </p>
+                                <a href="#" class="btn btn-primary">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
