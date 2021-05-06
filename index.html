@@ -5,17 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel the World</title>
-    
+
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <div class="container-fluid ">
-          <a class="navbar-brand"  href="#"><img src="logo.png" class="logo" />Travel the world</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="logo.png" class="logo" />Travel the world</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -27,7 +37,10 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+          <div
+            class="collapse navbar-collapse justify-content-around"
+            id="navbarNav"
+          >
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
@@ -38,10 +51,10 @@
                 <a class="nav-link" href="#Destination">Déstinations</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nos offres</a>
+                <a class="nav-link" href="#Nosoffres">Nos offres</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -50,93 +63,149 @@
     </header>
 
     <main>
-      <section >
+      <section>
         <div id="title" class="container">
           <h1 id="Destinations">Nos plus belles déstinations !</h1>
         </div>
 
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active m-auto">
-              <img
-                src="images/borabora.jpg"
-                class="d-block"
-                alt="borabora"
-              />
+            <div class="carousel-item active">
+              <img src="images/borabora.jpg" class="d-block w-100  m-auto" alt="...">
             </div>
-            <div class="carousel-item m-auto">
-              <img src="images/Canada.jpg" class="d-block w-100" alt="canada" />
+            <div class="carousel-item">
+              <img src="images/Canada.jpg" class="d-block w-100  m-auto" alt="...">
             </div>
-            <div class="carousel-item m-auto">
-              <img src="images/hawaii.jpg" class="d-block w-100" alt="hawaii" />
+            <div class="carousel-item">
+              <img src="images/hawaii.jpg" class="d-block w-100  m-auto" alt="...">
             </div>
-            <div class="carousel-item m-auto">
-              <img src="images/inde.jpg" class="d-block w-100" alt="inde" />
+            <div class="carousel-item">
+              <img src="images/inde.jpg" class="d-block w-100  m-auto" alt="...">
             </div>
-            <div class="carousel-item m-auto">
-              <img src="images/tahiti.jpg" class="d-block w-100" alt="tahiti" />
+            <div class="carousel-item">
+              <img src="images/tahiti.jpg" class="d-block w-100  m-auto" alt="...">
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </section>
 
-
-      <section class="container video">
-        <iframe
-          width="1000"
-          height="720"
-          src="https://www.youtube.com/embed/Fmw-F4r5sc8"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+      <section class="container video pb-5"> 
+          <iframe
+            src="https://www.youtube.com/embed/Fmw-F4r5sc8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
       </section>
-
-
-
 
       <section>
         <div class="container-fluid bg-info text-center p-5">
-            <div class="row ms-2 me-2">
-                <div class="col-4 m-auto">
-                    <i class="fas fa-passport fa-5x mb-4"></i>
-                    <h4>100 destinations disponibles !</h4>
-                </div>
-                <div class="col-4 m-auto">
-                    <i class="fab fa-angellist fa-5x mb-4"></i>
-                    <h4>annulation gratuite jusqu'à une semaine avant</h4>
-                </div>
-                <div class="col-4 m-auto">
-                    <i class="fas fa-globe-americas fa-5x mb-4"></i>
-                    <h4>30 ans d'expérience</h4>
-                </div>
+          <div class="row ms-2 me-2">
+            <div class="col-4 m-auto">
+              <i class="fas fa-passport fa-5x mb-4"></i>
+              <h4>100 destinations disponibles !</h4>
             </div>
+            <div class="col-4 m-auto">
+              <i class="fab fa-angellist fa-5x mb-4"></i>
+              <h4>annulation gratuite jusqu'à une semaine avant</h4>
+            </div>
+            <div class="col-4 m-auto">
+              <i class="fas fa-globe-americas fa-5x mb-4"></i>
+              <h4>30 ans d'expérience</h4>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <h4>Réservez dès maintenant !!!</h4>
+                    <label for="exampleFormControlInput1" class="form-label"
+                      >Nom</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="Entrez votre nom"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"
+                      >Prénom</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="Entrez votre prénom"
+                    />
+                  </div>
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Déstination</option>
+                    <option value="1">Bora-Bora</option>
+                    <option value="2">hawaii</option>
+                    <option value="3">tahiti</option>
+                    <option value="4">Inde</option>
+                    <option value="5">Canada</option>
+                  </select>
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Nombre d'adultes</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Nombre d'enfants (-14ans)</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>La formule</option>
+                    <option value="1">Standard</option>
+                    <option value="2">Prénium</option>
+                    <option value="3">Excéllence</option>
+                  </select>
+                  Date de départ <input type="date" name="anniversaire" /> 
+                  Date de retour <input type="date" name="anniversaire" />
+
+                  <button type="button" class="btn btn-primary">
+                    Réservez dès maintenant !
+                  </button>
+                </div>
+                <div class="col-md-6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script
